@@ -1,0 +1,18 @@
+site_name: Simbiose Docs
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      toggle:
+        icon: material/weather-night
+        name: Modo Escuro
+    - scheme: slate
+      primary: deep blue
+      toggle:
+        icon: material/weather-sunny
+        name: Modo Claro
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
