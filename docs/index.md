@@ -48,12 +48,13 @@ O nome de uma variável deve descrever o que a variável representa de forma cla
 
 Adote nomes que revelem a intenção da função.
 
+```{.py3}
 # RUIM
-
 send_http_data()
 
-    # BOM
-    post_twitter_status()
+# BOM
+post_twitter_status()
+```
 
 SEMPRE coloque nomes descritivos em funções, variáveis, classes, módulos, pacotes, etc.
 
